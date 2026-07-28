@@ -5,6 +5,7 @@ export const STORAGE_KEY_VOLUME = "music-player-volume";
 export const DEFAULT_VOLUME = 0.7;
 
 export const LOCAL_PLAYLIST: Song[] = [
+  /*
   {
     id: 1,
     title: "Copines",
@@ -55,6 +56,7 @@ export const LOCAL_PLAYLIST: Song[] = [
     url: "assets/music/url/xxxt.mp3",
     duration: 0,
   },
+  */
 ];
 
 export const DEFAULT_SONG: Song = {
