@@ -1,0 +1,70 @@
+# build output
+dist/
+
+# generated types
+.astro/
+demo
+plans
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# 只忽略根目录的 content（如果有独立内容仓库）
+# /content/
+
+# 但如果你的文章在 src/content/，不要忽略它！
+# 所以把 /content/ 这行删掉，或者改成下面的方式：
+
+# 如果你确实有根目录的 content/ 需要忽略，用这个：
+# /content/
+# 但保留 src/content/
+!src/content/
+
+*.backup
+
+# Large zip files
+*.zip
+
+# macOS-specific files
+.DS_Store
+
+.vercel
+
+package-lock.json
+bun.lockb
+yarn.lock
+
+# ide
+.idea
+*.iml
+.claude
+
+cache/
+fuwari/
+# src/data/myself.ts   # 如果是你的个人配置，取消注释
+# src/pages/myself.astro   # 如果是你的自定义页面，取消注释
+
+# Bangumi generated data
+src/data/bangumi-data.json
+
+# Bilibili generated data
+src/data/bilibili-data.json
+
+# Lighthouse CI
+.lighthouseci/
+
+# Live2D editor source files
+*.psd
+*.psd~
+*.cmo3
+*.vtube.json
