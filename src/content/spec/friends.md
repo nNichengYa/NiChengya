@@ -17,7 +17,7 @@ description: 我的朋友和值得推荐的博客
 
 **站长：n昵称YA**
 
-**地址：https://localhost:3000**
+**地址：https://nichengya.pages.dev**
 
 ---
 
@@ -29,8 +29,8 @@ description: 我的朋友和值得推荐的博客
 
 ```yaml
 名称：n昵称YA
-链接：https://localhost:3000
-头像：https://localhost:3000/assets/home/t.webp
+链接：https://nichengya.pages.dev
+头像：https://nichengya.pages.dev/assets/home/t.webp
 描述：你在搞什么飞机
 ```
 
