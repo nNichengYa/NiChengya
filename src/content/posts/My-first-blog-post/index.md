@@ -9,7 +9,7 @@ licenseName: "MIT"
 author: "NiChengYa"
 sourceLink: "https://nichengya.pages.dev/posts/My-first-blog-post"
 date: 2026-07-28
-draft: true
+draft: false
 image: "./h.webp"
 ---
 
