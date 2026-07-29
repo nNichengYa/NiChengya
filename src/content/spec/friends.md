@@ -31,7 +31,7 @@ description: 我的朋友和值得推荐的博客
 名称：n昵称YA
 链接：https://nichengya.pages.dev
 头像：https://nichengya.pages.dev/assets/home/t.webp
-描述：你在搞什么飞机
+描述：一个平凡的无名小卒
 ```
 
 申请友链：

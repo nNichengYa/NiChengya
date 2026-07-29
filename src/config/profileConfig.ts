@@ -4,7 +4,7 @@ import type { ProfileConfig } from "../types/config";
 export const profileConfig: ProfileConfig = {
   avatar: "/assets/home/t.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
   name: "n昵称YA",
-  bio: "你在搞什么飞机", // 个人简介
+  bio: "一个平凡的无名小卒", // 个人简介
   typewriter: {
     enable: true, // 启用个人简介打字机效果
     speed: 80, // 打字速度（毫秒）
