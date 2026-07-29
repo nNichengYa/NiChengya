@@ -280,10 +280,6 @@ const jsonLd = {
           id={entry.id}
           showEncrypted={isEncrypted}
         />
-        <!-- ✅ 添加访问量统计 -->
-        <div class="post-visitors mb-3">
-          <span id="twikoo_visitors">0</span> 次阅读
-        </div>
         {
           (!entry.data.image ||
             (entry.data.image && !siteConfig.showCoverInContent)) && (
@@ -327,7 +323,17 @@ const jsonLd = {
           </Markdown>
         )
       }
+      <!-- ✅ 访问量统计（文章底部） -->
+      <div
+        class="post-visitors text-center mt-6 pt-4 border-t border-(--line-divider)"
+      >
+        <span class="text-sm opacity-60"
+          >本文已被阅读 <span id="twikoo_visitors">0</span> 次
+        </span>
+      </div>
 
+      <!-- ✅ 添加这个空行 -->
+      <div class="mb-6"></div>
       {
         shareConfig.enable && (
           <ShareCard
@@ -405,7 +411,13 @@ const jsonLd = {
 <style>
   .post-visitors {
     color: var(--text-light);
+  }
+
+  .post-visitors .text-sm {
     font-size: 0.9rem;
-    opacity: 0.7;
+  }
+
+  .post-visitors .opacity-60 {
+    opacity: 0.6;
   }
 </style>
