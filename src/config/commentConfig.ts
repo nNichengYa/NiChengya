@@ -24,35 +24,20 @@ export const commentConfig: CommentConfig = {
     lang: SITE_LANG,
     loading: "lazy",
   },
-  
-<script src="https://giscus.app/client.js"
-        data-repo="nNichengYa/blog-Comment"
-        data-repo-id="R_kgDOTkn5Eg"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOTkn5Es4DCDTc"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
-*/
+  */
+
   giscus: {
-    repo: "nNichengYa/blog-Comment", // ✅ 你的评论仓库
-    repoId: "R_kgDOTkn5Eg", // ✅ 仓库 ID
-    category: "Announcements", // ✅ 分类名称
-    categoryId: "DIC_kwDOTkn5Es4DCDTc", // ✅ 分类 ID
-    mapping: "pathname", // ✅ 页面映射方式
-    strict: "0", // ✅ 严格匹配关闭
-    reactionsEnabled: "1", // ✅ 启用表情反应
-    emitMetadata: "0", // ✅ 不发送元数据
-    inputPosition: "bottom", // ✅ 输入框在底部
-    theme: "preferred_color_scheme", // ✅ 跟随系统主题
-    lang: SITE_LANG, // ✅ 语言与站点一致
-    loading: "lazy", // ✅ 懒加载
+    repo: "nNichengYa/blog-Comment",
+    repoId: "R_kgDOTkn5Eg",
+    category: "Announcements",
+    categoryId: "DIC_kwDOTkn5Es4DCDTc",
+    mapping: "pathname",
+    strict: "0",
+    reactionsEnabled: "1",
+    emitMetadata: "0",
+    inputPosition: "top",
+    theme: "preferred_color_scheme",
+    lang: SITE_LANG,
+    loading: "lazy",
   },
 };
