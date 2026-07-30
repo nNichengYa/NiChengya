@@ -12,6 +12,14 @@ export interface FriendItem {
 
 // 友情链接数据
 export const friendsData: FriendItem[] = [
+  {
+    id: 1,
+    title: "椛",
+    imgurl: "https://i.stardots.io/baka/StarDots-2026041522222248855.jpg",
+    desc: "一朵神秘的椛",
+    siteurl: "https://baka-1ul.pages.dev",
+    tags: ["Friend"],
+  },
   /*
   {
     id: 1,
