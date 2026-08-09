@@ -125,6 +125,25 @@ const localAnimeList: AnimeItem[] = [
     startDate: "2020-10",
     endDate: "2020-12",
   },
+
+  {
+    title: "快把我哥带走",
+    status: "completed",
+    rating: 9.5,
+    cover: "/assets/anime/kbwgdz/kbwgdz.webp",
+    description:
+      "讲述了一个普通高中生时秒与她那个整天耍贱卖萌、坑妹无数的哥哥时分之间充满欢笑与泪水的日常故事。兄妹俩在打打闹闹中，逐渐理解了彼此的重要性。",
+    episodes: "24",
+    year: "2017",
+    genre: ["搞笑", "日常", "校园", "国产动画"],
+    studio: "绘梦动画",
+    link: "https://www.bilibili.com/bangumi/play/ss6012?spm_id_from=333.337.0.0",
+    progress: 24,
+    totalEpisodes: 24,
+    startDate: "2017-03",
+    endDate: "2017-06",
+  },
+
   // ============================================
   // Re:从零开始的异世界生活 系列
   // ============================================
